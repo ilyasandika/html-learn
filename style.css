@@ -141,6 +141,7 @@ nav {
     align-content: center;
     max-width : 500px;
     color :#777679;
+    width : 100%;
 }
 
 .img > img {
@@ -445,6 +446,18 @@ footer {
 }
 
 /* media query */
+
+@media screen and (max-width : 380px) {
+    .main-intro {
+        font-size: 2em;
+    }
+
+    .description p {
+        font-size : 14px;
+        max-width : 230px;
+    }
+}
+
 @media screen and (min-width : 464px) {
     .main-intro {
         font-size: 2.8em;
