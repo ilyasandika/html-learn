@@ -448,9 +448,6 @@ footer {
 /* media query */
 
 @media screen and (max-width : 380px) {
-    .main-intro {
-        font-size: 2em;
-    }
 
     .description p {
         font-size : 14px;
