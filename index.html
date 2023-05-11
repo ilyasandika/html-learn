@@ -7,6 +7,7 @@
     <title>Ilyas Andika &#183; Web Developer</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://kit.fontawesome.com/8d6beb941c.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -15,7 +16,7 @@
 
     <header>
         <nav>
-            <ul class="navbar">
+            <ul class="navbar" data-aos="fade-down" data-aos-duration="1500">
                 <li><a href="/#services" class="navbar-item">Services</a></li>
                 <li><a href="/#portfolio" class="navbar-item">Portfolio</a></li>
                 <li><a href="#" class="navbar-item">About</a></li>
@@ -25,7 +26,7 @@
     </header>
 
     <section class="introduction">
-        <div class="intro-text">
+        <div class="intro-text" data-aos="fade-up" data-aos-duration="1500">
             <h1 class="main-intro">Hi! <br> I'm Ilyas Andika</h1>
             <div class="description">
                 <div class="img">
@@ -48,22 +49,23 @@
                 </div>
             </div>
         </div>
-        <div class="intro-img">
+        <div class="intro-img" data-aos="fade-left" data-aos-duration="1500">
             <img src="img/profil.png" alt="">
         </div>
-    </section>
 
+    </section>
+    <hr class="border-section">
     <section class="my-services" id="services">
-        <div class="my-services-header">
+        <div class="my-services-header" data-aos="fade-up" data-aos-duration="1500">
             <h2>My Services</h2>
         </div>
         <div class="my-services-item">
-            <div class="card small-card lime">
+            <div class="card small-card lime" data-aos="fade-right" data-aos-duration="1500">
                 <h3>Web Design</h3>
                 <p class="description-card"><span class="bold">I design your website. </span>I create fun, beautiful, useful, user-centric web design</p>
                 <img src="img/design.jpg" alt="">
             </div>
-            <div class="card cyan">
+            <div class="card cyan" data-aos="fade-left" data-aos-duration="1500">
                 <h3>Web Development</h3>
                 <p class="description-card"><span class="bold">I don't just design website. </span>i Build high peforming, beautiful, user-friendly and clean code websites</p>
                 <img src="img/development.jpg" alt="">
@@ -71,7 +73,7 @@
         </div>
     </section>
 
-    <section class="portfolio" id="portfolio"> <!-- this "Something I've Built" section-->
+    <section class="portfolio" id="portfolio"  data-aos="fade-up" data-aos-duration="1500"> <!-- this "Something I've Built" section-->
         <div class="portfolio-header">
             <h2>Some Things I've Built</h2> <hr>
         </div>
@@ -139,15 +141,13 @@
                 <span class="skill-item text">NodeJS</span>
             </div>
         </div>
-
     </section>
-
     <section class="process">
-        <div class="process-header">
+        <div class="process-header" data-aos="fade-right" data-aos-duration="1500">
             <span class="svelte text">METHODOLOGY</span>
             <h2>My Process</h2>
         </div>
-        <div class="process-card">
+        <div class="process-card" data-aos="fade-left" data-aos-duration="1500">
             <div class="process-card-item">
                 <p class="inner-svelte text blue">Phase 1</p>
                 <h3>Discovery</h3>
@@ -178,6 +178,10 @@
             <a href="https://linkedin.com/in/ilyasandika" target="_blank" class="linkedin">linkedin.com/ilyasandika</a>
         </section>
     <footer class="text">&copy;2023 Ilyas Andika. All right reserved</footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </div>
 </body>
 </html>
