@@ -171,11 +171,21 @@ nav {
     font-size : small;
 }
 
+
 .is-featured {
     background-color : #626262;
     color : #F4F9F4;
     padding : 12px 20px;
     border-radius: 15px;
+}
+
+.arrow {
+    color: #39383C; padding :5px;
+    transition : 0.5s;
+}
+
+.arrow-btn:hover > .arrow {
+    transform: translate(5px, 0px);
 }
 
 .social-media {
@@ -192,11 +202,20 @@ nav {
     max-width: 320px;
 }
 
+
+.social-media-item {
+    transition : 0.5s;
+}
+
 .social-media-item > img{
     width : 20px;
 }
 
-.social-media-item-fb > img{
+.social-media-item:hover {
+    transform : translate(0px, -5px);
+}
+
+.fb > img{
     width : 10px;
 }
 
