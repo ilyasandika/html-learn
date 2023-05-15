@@ -54,7 +54,7 @@ html {
 body {
     box-sizing: border-box;
     background-color: #F4F9F4;
-    padding :10px 30px 10px 30px;
+    padding :20px 30px;
 }
 
 .container {
@@ -289,7 +289,7 @@ h3 {
 }
 
 .card:hover {
-    transform: translate(0, -10px);
+    transform: translate(0, -10px) !important; 
 }
 
 .card:hover > img{
@@ -529,7 +529,7 @@ footer {
 @media screen and (min-width : 768px) {
    
     body {
-        padding : 10px 60px;
+        padding : 20px 60px;
     }
 
     .introduction {
@@ -684,7 +684,7 @@ footer {
 @media screen and (min-width : 1063px) {
 
    body {
-        padding : 20px 100px 10px;
+        padding : 20px 100px;
    }
 
    .introduction {
