@@ -61,6 +61,7 @@ body {
     max-width : 1200px;
     margin-left : auto;
     margin-right : auto;
+    overflow: hidden;
 }
 
 h1, h2 {
