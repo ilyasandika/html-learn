@@ -223,6 +223,7 @@ nav {
 .intro-img {
     padding : 20px 20px 0px 20px;
     text-align: center;
+
 }
 .intro-img>img {
     width : 200px;
@@ -542,6 +543,7 @@ footer {
     
     .intro-img {
         padding : 0;
+        max-width : 300px;
     }
 
     .intro-text {
@@ -620,8 +622,8 @@ footer {
     h2 {
         font-size : xx-large;
     }
-    
-    .intro-img img{
+ 
+    .intro-img>img{
         width : 100%;
     }
 
@@ -737,6 +739,15 @@ footer {
     }
     .portfolio-card-img img {
         width : 200%;
+    }
+
+    .intro-img {
+        padding : 0;
+        max-width : none;
+    }
+
+    .intro-img>img {
+        width : 75%;    
     }
      
  }
