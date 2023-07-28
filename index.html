@@ -190,21 +190,21 @@
         <section class="team" id="team">
             <h2>Our Team</h2> <br>
             <div class="team-container">
-                <div class="person">
+                <div class="person" id="firstProfile">
                     <img src="img/port3.jpg" alt="Avatar" style="width:100%">
                     <div class="person-container">
                         <h3><b>Ilyas Andika</b></h3>
                         <p class="text">Full Stack Developer</p>
                     </div>
                 </div>
-                <div class="person">
+                <div class="person" id="secondProfile">
                     <img src="img/port3.jpg" alt="Avatar" style="width:100%">
                     <div class="person-container">
                         <h3><b>Triani Purnama Sari</b></h3>
                         <p class="text">Frontend Developer</p>
                     </div>
                 </div>
-                <div class="person">
+                <div class="person" id="thirdProfile">
                     <img src="img/port3.jpg" alt="Avatar" style="width:100%">
                     <div class="person-container">
                         <h3><b>Aan Fadillah Riwahuda</b></h3>
@@ -220,6 +220,7 @@
             <iframe width="560" height="315" id="iframe"></iframe>
             <button onclick="window.dialog.close();" aria-label="close" class="x">❌</button>
         </dialog>
+
         <dialog id="talk">
             <div class="talk-container">
                 <h2>Lets Talk!</h2>
@@ -246,6 +247,26 @@
                 </div>
         </dialog>
 
+        <dialog id="profile">
+            <table id="tableProfile">
+                <thead>
+                    <tr>
+                        <th>Full Name</th>
+                        <th>NIM</th>
+                        <th>Address</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="fullName"></td>
+                        <td id="nim"></td>
+                        <td id="address"></td>
+                    </tr>
+                </tbody>
+            </table>
+            <button onclick="window.profile.close();" aria-label="close" class="x">❌</button>
+        </dialog>
+
         <section class="contact" id="contact">
             <h2>OUR CONTACT</h2>
             <p>Ready to Join the Journey? Let's Talk <br /> and Explore Endless Possibilities Together!</br>
@@ -256,7 +277,14 @@
                 <a href="https://www.instagram.com/univsiberasia/" target="_blank" class="social-media-item"><img
                         src="img/ig.png" alt=""></a>
                 <a href="https://www.linkedin.com/school/asia-cyber-university/" target="_blank"
-                    class="social-media-item"><img src="img/linkedin.png" alt=""></a>
+                    class="social-media-item"><img src="img/linkedin.png" alt=""></a>   
+                <p class="social-media-item"><img src="img/play.png" alt="" id="audioBtn"></p>   
+                    
+
+                <audio hidden id="audio">
+                    <source src="audio/mitsuhatheme.mp3" type="audio/mpeg">
+                </audio>
+
             </div>
         </section>
         <footer class="text">&copy;2023 HTMLearn. All right reserved</footer>

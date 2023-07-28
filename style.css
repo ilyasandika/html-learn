@@ -315,6 +315,7 @@ nav {
 
 .social-media-item {
     transition: 0.5s;
+    cursor: pointer;
 }
 
 .social-media-item > img {
@@ -533,7 +534,8 @@ h3 {
 
 /* Our Team Styling */
 
-.team {
+.team .person {
+    cursor: pointer;
 }
 
 .team-container {
@@ -711,6 +713,24 @@ dialog p a:visited {
     color: rgb(var(--vs-primary));
 }
 
+/* modal table */
+#profile {
+    padding-bottom: 2rem;
+}
+
+#tableProfile {
+    font-family: "Poppins", sans-serif;
+    border: 1px solid;
+}
+
+#tableProfile th {
+    font-weight: bold;
+}
+#tableProfile th,
+#tableProfile td {
+    padding: 10px;
+    border: 1px solid;
+}
 /* animation */
 
 @keyframes fadeIn {
