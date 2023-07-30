@@ -1,3 +1,14 @@
+// Kelompok 14 - Tugas 2 Pemrograman Web I
+
+// NIM     : 220401070205
+// Nama    : Ilyas Andika
+
+// NIM     : 220401010058
+// Nama    : Aan Fadillah Riwahuda
+
+// NIM     : 220401070206
+// Nama    : Triani Purnama Sari
+
 const talkBtn = document.getElementById("talkBtn");
 const structureBtn = document.getElementById("structureBtn");
 const tagBtn = document.getElementById("tagBtn");
